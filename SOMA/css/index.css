@@ -1,0 +1,43 @@
+html
+{  
+}
+body
+{ background: #333;
+  color: white;
+  text-shadow: 2px 2px 4px #222;
+}
+img
+{ border: 1px solid orange;
+    box-sizing: border-box;
+  padding: 5px;
+}
+img:hover
+{ border: 5px inset lime ; 
+  
+}
+
+audio
+{ border: 1px solid orange; 
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.main
+{ background: #444;  
+  border: 5px solid orange;
+  height: 450px;
+  padding: 20px;
+  overflow: auto;
+}
+#pix
+{  display: block ;
+   margin-left: auto ;
+   margin-right: auto ;
+  
+}
+.two
+{  text-align: center;  
+}
