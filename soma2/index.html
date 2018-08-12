@@ -107,11 +107,13 @@ function play()
        var indx = last.indexOf(" - ");
        var artist =  last.substring(0,indx);
        var song =  last.substring(indx+2);
-       var myObj = "<h2>" + chan + "</h2><br> " + artist + " : " + song;
+     
+       var aud = "http://ice1.somafm.com/" + id + "-128-mp3";
+       var myObj = "<h2>" + chan + "</h2>" + artist + " : " + song + "<br><br>LINK - " + aud;
        $("#pix").attr("src", img);
        $(".two").html(myObj); 
       
-       var aud = "http://ice1.somafm.com/" + id + "-128-mp3";
+      
        $('audio#audiosample').attr('src', aud );
      if(active)
      {         
