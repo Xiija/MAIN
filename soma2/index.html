@@ -109,7 +109,7 @@ function play()
        var song =  last.substring(indx+2);
      
        var aud = "http://ice1.somafm.com/" + id + "-128-mp3";
-       var myObj = "<h2>" + chan + "</h2>" + artist + " : " + song + "<br><br> - LINK - <br>" + aud;
+       var myObj = "<h2>" + chan + "</h2>" + artist + " : " + song + "<br><br> - LINK - <br>" + "<h2>" + aud + "</h2>" ;
        $("#pix").attr("src", img);
        $(".two").html(myObj); 
       
