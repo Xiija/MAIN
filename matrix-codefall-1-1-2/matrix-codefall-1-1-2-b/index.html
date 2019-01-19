@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Matrix Codefall 1.1.2 b</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--#===========================*/	
+   -# Author: Xiija (2018)
+   -# Desc: Matrix Codefall Screensaver
+   -# Notes:
+   -# fork of: https://codepen.io/t3h2mas/pen/EKYOWO/
+   -# Mod from - http://thecodeplayer.com/walkthrough/matrix-rain-animation-html5-canvas-javascript
+   -# Alt vers - http://thecodeplayer.com/experiment/matrix-rain-animation-html5-canvas-javascript/1
+   -# Alt vers 2 - http://thecodeplayer.com/experiment/matrix-rain-animation-html5-canvas-javascript
+   -# inspired by : http://timelessname.com/sandbox/matrix.html
+----#============================*/-->
+<head>  
+ <meta
+  name="viewport" 
+  content="width=device-width, initial-scale=1">
+<link 
+ rel="stylesheet" 
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div class="navbar">
+        <div class= "anch">
+          <a href="#" class="anch" 
+             id="reload" style="font-size: 25px;"
+             onclick="reload(); return false;">Reload
+          </a>          
+        </div>    
+  
+    <div class="dropdown">
+      <button class="dropbtn" style=" text-shadow: 2px 2px 2px black;"
+              onclick="myFunction()">Options 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#" onclick="recolor(); return false;">Text Color</a>
+        <a href="#" onclick="speedy(); return false;">Speed</a>
+        <a href="#" onclick="togText(); return false;">CharSet</a>        
+      </div>        
+    </div> <!-- end dropdown -->
+   <div class="music">
+    <span id="demo2">
+      <audio controls volume="0.02" 
+             id= "audiosample" 
+             style="width: 200px;height: 20px;"
+             autoplay>
+      <source src="http://ice1.somafm.com/suburbsofgoa-128-mp3" 
+              type="audio/mpeg">                           
+      </audio>  
+     </span>
+   </div> 
+  <h2>Matrix Codefall Rain 1.1</h2> 
+  <div class="button">
+    <span id="demo"></span>
+   </div> 
+  <p class= "profile" onclick="linkit()">Made @ 
+  <br><small><font size="1" color="white">Codepen 2018</font></small></p>
+  
+</div> <!-- end navbar -->
+  
+  <canvas id="c"></canvas>
+  <div class="centered">
+    <h1 class="msg">
+    > wake up neo . . .
+    </h1>
+  </div>
+
+<!-- script defs -->
+<script src="https://code.jquery.com/jquery-1.12.4.js">
+</script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+</script>
+ 
+ 
+ 
+   <!-- Body -->
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
