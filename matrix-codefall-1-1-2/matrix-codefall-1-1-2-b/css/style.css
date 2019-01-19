@@ -158,14 +158,14 @@ canvas
   
 }
 
-span {
+#demo {
     display: inline-block; // newp
     box-sizing: content-box; // newp
     background: #444;
     background-image: linear-gradient(0deg, #63604c 0%, #f9efca 49%, #f4f1e3 100%) ;
-    color: #555;
+    color: #222;
     text-transform: uppercase;
-    text-shadow: #e0e0e0 2px 2px 0, #000 3px 3px 0px;;
+    text-shadow: #e0e0e0 1px 1px 0, #000 1.5px 1.5px 1.5px;;
     padding: 0.1rem 2rem !important;
     border-radius: 10px !important;   
     border-style: groove;
