@@ -1,0 +1,63 @@
+html
+{  
+}
+body
+{ background: #333;
+  color: white;
+  text-shadow: 2px 2px 4px #222;
+}
+img
+{ border: 1px solid orange;
+  box-sizing: border-box;
+  padding: 5px;
+ 
+ 
+}
+img:hover
+{ border: 5px inset lime ;   
+}
+
+audio
+{ border: 1px solid orange; 
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.main
+{ background: #444;  
+  border: 5px solid orange; 
+  padding: 20px;
+  overflow: auto;
+  display: block;
+  width: 91%;
+  margin: 0 auto;
+  text-align: center;
+}
+#pix
+{  display: block ;
+   margin-left: auto ;
+   margin-right: auto ;
+  
+}
+.two, .three
+{  text-align: center;  
+}
+/* =================== */
+@media screen and (max-width: 600px)
+{
+  body  {	
+  }
+  .main  {  
+  padding: 0px;
+  overflow: auto;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  }
+  audio{
+    width: 300px;
+  }
+}
