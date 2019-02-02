@@ -90,12 +90,12 @@ function reset()
 
 function recolor()
 { rainColor = "#"+("000"+(Math.random()*(1<<24)|0).toString(16)).substr(-6);
-  var demo = document.getElementById("demo");
+  var time = document.getElementById("time");
   var colz = "linear-gradient(0deg, #63604c 0%, " +  rainColor  + " 49%, #f4f1e3 100%)";
   //console.log("got " + demo);
  // demo.style.backgroundImage = "linear-gradient" + colz; 
-  document.getElementById("demo").style.backgroundImage = (colz);
-  document.getElementById("demo2").style.backgroundImage = (colz);
+  document.getElementById("time").style.backgroundImage = (colz);
+  document.getElementById("player").style.backgroundImage = (colz);
   reset(); 
 }
 
@@ -226,7 +226,7 @@ var myVar = setInterval(function(){ myTimer() }, 1000);
 function myTimer() {
     var d = new Date();
     var t = d.toLocaleTimeString();
-    document.getElementById("demo").innerHTML = t;
+    document.getElementById("time").innerHTML = t;
 }
 
 function set(){
