@@ -99,7 +99,9 @@ function recolor()
     high = 15; 
   }
   var c = Math.floor(Math.random() * (high - low + 1) ) + low;
-  rainColor = 'hsl(' + c +', 100%, 50%)';
+  var lite = Math.floor(Math.random() * (75 - 25 + 1) ) + 25;
+  rainColor = 'hsl(' + hue + ', 100%,' + lite + '%)';
+ // rainColor = 'hsl(' + c +', 100%, 50%)';
   // =============================================
   var time = document.getElementById("time");
   var colz = "linear-gradient(0deg, #63604c 0%, " +  rainColor  + " 49%, #f4f1e3 100%)";
