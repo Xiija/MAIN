@@ -99,7 +99,7 @@ function recolor()
     high = 15; 
   }
   var c = Math.floor(Math.random() * (high - low + 1) ) + low;
-  var lite = Math.floor(Math.random() * (75 - 25 + 1) ) + 25;
+  var lite = Math.floor(Math.random() * (75 - 50 + 1) ) + 50;
   rainColor = 'hsl(' + hue + ', 100%,' + lite + '%)';
  // rainColor = 'hsl(' + c +', 100%, 50%)';
   // =============================================
