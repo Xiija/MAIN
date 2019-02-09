@@ -84,6 +84,8 @@ function timer()
 
 function reset() 
 {  clearInterval(drawer); 
+   c.height = window.innerHeight;
+   c.width  = window.innerWidth;
    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);    
    timer();
 };
