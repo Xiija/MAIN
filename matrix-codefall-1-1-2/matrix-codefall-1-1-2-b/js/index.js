@@ -1,6 +1,6 @@
 /* fork of: https://codepen.io/t3h2mas/pen/EKYOWO/
 */
-
+var low = 0, high = 15;
 var tog;
 var speed = 40;
 var ChaarSet ;
@@ -89,7 +89,16 @@ function reset()
 };
 
 function recolor()
-{ rainColor = "#"+("000"+(Math.random()*(1<<24)|0).toString(16)).substr(-6);
+{ //rainColor = "#"+("000"+(Math.random()*(1<<24)|0).toString(16)).substr(-6);
+  low = high;
+  high += 15;
+  if( high > 360)
+  { low = 0;
+    high = 15; 
+  }
+  var c = Math.floor(Math.random() * (high - low + 1) ) + low;
+  rainColor = 'hsl(' + c +', 100%, 50%)';
+  // =============================================
   var time = document.getElementById("time");
   var colz = "linear-gradient(0deg, #63604c 0%, " +  rainColor  + " 49%, #f4f1e3 100%)";
   //console.log("got " + demo);
