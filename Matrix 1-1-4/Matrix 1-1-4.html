@@ -35,3 +35,56 @@
              onclick="reload(); return false;">Reload
           </a>          
         </div>    
+  
+    <div class="dropdown">
+      <button class="dropbtn" style=" text-shadow: 2px 2px 2px black;"
+              onclick="myFunction()">Options 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#" onclick="recolor(); return false;">Text Color</a>
+        <a href="#" onclick="speedy(); return false;">Speed</a>
+        <a href="#" onclick="togText(); return false;">CharSet</a>        
+      </div>        
+    </div> <!-- end dropdown -->
+   <div class="music">
+    <span id="demo2">
+      <audio controls volume="0.02" 
+             id= "audiosample" 
+             style="width: 350px;height: 20px;"
+             autoplay>
+      <source src="http://ice1.somafm.com/suburbsofgoa-128-mp3" 
+              type="audio/mpeg">                           
+      </audio>  
+     </span>
+   </div> 
+  <h2>Matrix Codefall Rain 1.1.4</h2> 
+  <div class="button">
+    <span id="demo"></span>
+   </div> 
+  <p class= "profile" onclick="linkit()">Made @ 
+  <br><small><font size="1" color="white">Codepen 2018</font></small></p>
+  
+</div> <!-- end navbar -->
+  
+  <canvas id="c"></canvas>
+  <div class="centered">
+    <h1 class="msg">
+    > wake up neo . . .
+    </h1>
+  </div>
+
+<!-- script defs -->
+<script src="https://code.jquery.com/jquery-1.12.4.js">
+</script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+</script>
+ 
+ 
+ <script  src="js/Matrix 1-1-4.js"></script>
+  
+  
+   
+   
+</body>
+</html>
