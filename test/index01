@@ -1,0 +1,35 @@
+<!-- DOCTYPE html -->
+<!--#===========================*/	
+   -# Author: Xiija (2018)
+   -# Desc: Template
+   -# Notes:
+   -# 
+   -# 
+   -# 
+   -# 
+----#============================*/-->
+<html>
+<title>CODEPEN Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheets -->  
+  <!-- script defs -->
+   <!-- Body -->
+<body>
+  <div class="tester">
+  TESTING...
+  <div>
+<div class="foot">
+     <a id='pens' 
+     href='https://codepen.io/collection/DYeqrQ/#' 
+     class='fa fa-codepen' 
+     target='_blank'><span>My Other Pens</span></a>
+    
+  <a id='Profile' 
+     href='https://diacodesign.com' 
+     class='fa fa-empire' 
+     target='_blank'><span>Codepen Profile</span></a> 
+</div>
+  
+</body>
+</html>
