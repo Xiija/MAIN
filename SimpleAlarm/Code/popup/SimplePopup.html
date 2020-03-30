@@ -1,0 +1,74 @@
+﻿<!-- DOCTYPE html -->
+
+<html>
+  <head>
+		<title>My Dream Alarm Clock</title>
+		<meta charset='UFT-8' name='viewport'
+          content='width=device-width, initial=scale=1.0' />	
+		 <link rel="stylesheet" href="SimplePopup.css"/>  
+	</head>
+  <body>
+     <div class="main">
+   
+    <div id="clock" class="clock">loading ...
+    </div>
+    
+    	<div id='alarm-container'>
+        <p id=test>No Alarm Set...</p>
+		  	<h3>Set Alarm Time</h3>
+				<label>
+					<div>
+					<select id='alarmhrs' ></select>
+					</div>
+				</label>
+      
+				<label>
+					<div>
+					<select id='alarmmins' ></select>
+					</div>
+				</label>
+      
+			
+      
+				<label>
+					<div>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+        
+        
+        <div id='buttonHolder'>
+			<div>
+				<button  class='btn' id='setButton' onClick='alarmSet()'>Set Alarm</button>
+			</div>
+
+			<div>
+				<button  class='btn' id='clearButton' onClick='alarmClear()'>Clear Alarm</button>
+			</div>
+          
+      <p id = "dbug">Debug: </p>
+          
+		</div>      
+	</div>
+<!--	
+<audio id="timer-beep">
+  <source 
+   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/41203/beep.mp3"/>
+  <source
+   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/41203/beep.ogg"/>
+</audio>
+-->
+<!-- LOAD MOMENT FIRST -->
+    <script src="moment.js">
+	</script>
+	
+    <script src="SimplePopup.js">
+    </script>   
+	
+   
+   </div>
+  </body>
+</html>

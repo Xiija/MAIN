@@ -1,0 +1,39 @@
+{
+
+  "description": "Simple one time alarm",
+  "manifest_version": 2,
+  "name": "SimpleAlarm",
+  "version": "1.0",
+  "homepage_url": "https://github.com/Xiija",
+  "icons": {
+    "48":  "icons/SimpleAlarm-48.png"
+  },
+
+  "permissions": [
+    "activeTab",   
+    "tabs"
+  ],
+
+  "browser_action": {
+   "default_icon": {
+      "16":  "icons/SimpleAlarm-16.png",
+      "32":  "icons/SimpleAlarm-32.png",
+      "48":  "icons/SimpleAlarm-48.png",
+      "96":  "icons/SimpleAlarm-96.png"
+    },
+    "theme_icons": [{
+        "light": "icons/SimpleAlarm-32.png",
+        "dark": "icons/SimpleAlarm-32.png",
+        "size": 32
+    }],
+
+    "default_title": "SimpleAlarm",
+    "default_popup": "popup/SimplePopup.html"
+  },
+
+
+  "background": {
+     "page": "bkg-page.html"
+   }
+
+}
