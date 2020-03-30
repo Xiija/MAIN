@@ -7,3 +7,7 @@ No special code for playing the sound.
 Mostly a proof of concept, WIP, feel free to clone, remix, fork, etc :P <br/>
 
 ![](SimpleAlarmScreenshot.png)
+
+To install manually, click the menu button in firefox, selct add-ons, and click the settings wheel.  
+
+![]()
