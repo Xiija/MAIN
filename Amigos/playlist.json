@@ -6,17 +6,8 @@
     "track-6": {"name": "Space Trip",             "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/SpaceTrip1.mp3"},
     "track-7": {"name": "Sunshine",               "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/Sunshine.mp3"},
     "track-8": {"name": "Talk to Me",             "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/Talk2Me.mp3"},
-    "track-9": {"name": "back to You",            "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/back2you.mp3"},
-    "track-10": {"name": "Borracho",              "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/borracho.mp3"},
-    "track-11": {"name": "Bustin a Move",         "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/bustin.mp3"},
-    "track-12": {"name": "Crazy",                 "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/crazy.mp3"},
-    "track-13": {"name": "Framptonstein",         "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/framptonstein.mp3"},
-    "track-14": {"name": "Grinder",               "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/grinder.mp3"},
-    "track-15": {"name": "Jazz Jam",              "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/jazzjam.mp3"},
-    "track-16": {"name": "Love to Rock",          "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/luv2rock.mp3"},
-    "track-17": {"name": "Really Doesn't Matter", "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/matter-ed.mp3"},
-    "track-18": {"name": "Morning",               "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/morningcomes.mp3"},
-    "track-19": {"name": "No Reason",             "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/noreason.mp3"},
-    "track-20": {"name": "ShakeIt/U&Me",          "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/shake it-U&me.mp3"},
-    "track-22": {"name": "Tears",                 "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/tears"}
+    "track-9": {"name": "back to You",            "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/back2you.mp3"},   
+    "track-17": {"name": "Really Doesn't Matter", "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/matter-ed.mp3"},  
+    "track-19": {"name": "No Reason",             "link": "https://raw.githubusercontent.com/Xiija/MAIN/gh-pages/Amigos/noreason.mp3"}
+  
 }
