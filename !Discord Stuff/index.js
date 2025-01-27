@@ -1,6 +1,8 @@
 var url  = "https://discord.com/api/webhooks/1149704323857657976/7jUG3nOop-1zIIs7GxKiQ_BxVyBPsrIzqX9CeUjYA29TaQYeTL_5rt78H7CMECt5UzXx";
 let mess = "sum crap sunday";
 let btn = document.getElementById("b1");
+let err = document.getElementById("d1");
+
 btn.addEventListener("click", doit, false);
 async function doit() {  
 
@@ -19,16 +21,19 @@ async function doit() {
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
+         err.innerText += 'Network response was not ok \n';
       }
       return response.json(); // or response.text() if the response is not JSON
     })
     .then(data => {
       // Handle the response data
       console.log(data);
+         err.innerText += 'Data response: \n' + data;
     })
     .catch(error => {
       // Handle any errors
       console.error('Error:', JSON.stringify(error) );
+      err.innerText += 'ERRER \n' + JSON.stringify(error);
     });
   
 };
