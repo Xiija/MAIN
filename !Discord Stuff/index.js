@@ -1,5 +1,7 @@
 var url  = "https://discord.com/api/webhooks/1149704323857657976/7jUG3nOop-1zIIs7GxKiQ_BxVyBPsrIzqX9CeUjYA29TaQYeTL_5rt78H7CMECt5UzXx";
 let mess = "sum crap sunday";
+let btn = document.getElementById("b1");
+btn.addEventListener("click", doit, false);
 async function doit() {  
 
    await fetch( url, {
