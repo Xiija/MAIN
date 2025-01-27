@@ -5,7 +5,7 @@ let err = document.getElementById("d1");
 
 btn.addEventListener("click", doit, false);
 async function doit() {  
-
+  err.innerText += 'inside the handler... \n';
    await fetch( url, {
       method: 'POST',
       mode: "cors",
